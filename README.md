@@ -22,3 +22,26 @@ Also we create a maintenance as if was a CRUD
 **D** elete
 
 With this we can explain a little about the project.
+
+## Author
+
+Kenneth Flores - Student
+
+## License 
+
+MIT - You can use this project for all confidently
+
+_"The programmation is an art so stellar and so stunning" 
+
+## Pre - Visualization
+
+## Version
+
+```
+Version (1.0.1)
+```
+_In Process actually_
+
+## Thanks all are the best
+
+![3285300-launch-rocket-space-spacecraft-spaceship-starship-startup_106797](https://user-images.githubusercontent.com/71115590/127438253-1b044385-ef1c-4ad6-9b31-08876f81307e.png)
