@@ -6,6 +6,12 @@ Dedicatory
 * To God, My Family, my force and my life.
 * To My Loved, who is the best.
 
+## Technologies
+
+```
+C# .Net SDK 3.1
+```
+
 ## Goal of Project
 This a little practice, so funny that i have done in this month, the purpuse of this project is to learn in C#
 a language so magnificent, the expectation was to create a code that simulate a process in a Hotel, Red Guara
@@ -34,6 +40,8 @@ MIT - You can use this project for all confidently
 _"The programmation is an art so stellar and so stunning" 
 
 ## Pre - Visualization
+
+![image]()
 
 ## Version
 
