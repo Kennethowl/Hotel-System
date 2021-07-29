@@ -1,4 +1,6 @@
-# Hotel System Red Guara
+# Hotel System Red Guara 
+
+![kisspng-scarlet-macaw-bird-clip-art-parrot-exotic-natural-bird-photos-by-canva-5cc7e954600f78 9509319215566052683935](https://user-images.githubusercontent.com/71115590/127441820-b4afc3ce-d166-4887-a42b-fa6822d758a2.png)
 
 Dedicatory
 ----------
