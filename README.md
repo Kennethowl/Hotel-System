@@ -5,6 +5,7 @@ Dedicatory
 
 * To God, My Family, my force and my life.
 * To My Loved, who is the best.
+* To JC, other level for as programmer
 
 ## Technologies
 
@@ -37,7 +38,7 @@ Kenneth Flores - Student
 
 MIT - You can use this project for all confidently
 
-_"The programmation is an art so stellar and so stunning" 
+_"The programmation is an art so stellar and so stunning"_
 
 ## Pre - Visualization
 
