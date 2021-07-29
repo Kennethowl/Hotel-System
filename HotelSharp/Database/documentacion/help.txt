@@ -1,0 +1,56 @@
+ 
+Welcome to Docomentation about Hotel Guara System
+
+1 - About the Begin
+2 - Logins
+3 - DataBase   
+4 - Operations
+
+About the System (History)
+
+Bienvenido a la documentacion del Sistema de Hotel Guara
+
+1 - Acerca del Inicio
+La interfaz de inicio tiene como finalidad basarse en las antiguas Mainframes de COBOL, para resaltar esto se trato de crear pulsaciones de botones para mejorar un poco la navegacion en el proyecto, al menos en la parte del inicio, entonces podemos decir lo siguiente con respecto a esas funciones, para esto se hizo de ReadKey, con esta funcion podemos elegir cualquiera de los botones de nuestro teclado para que realice x trabajo
+
+Sintaxis de la Funcion
+-----------------------
+
+La funcion es muy facil de expresar por tanto aqui colocaremos lo que seria su codigo
+
+---------------------------------------
+Console.ReadKey().Key == ConsoleKey.F2
+---------------------------------------
+Las pulsaciones utilizadas en la parte del inicio son las siguientes
+
+F2=SALIR
+BACKSPACE=HELP
+ENTER=ENTRAR
+---------------------------------------
+---------------------
+Definicion de Readkey
+---------------------
+
+Readkey(interceptar): lee una tecla desde teclado. El parámetro "interceptar" es un "bool", y es opcional. Indica si se debe capturar la tecla sin permitir que se vea en pantalla ("true" para que no se vea, "false" para que se pueda ver). Si no se indica este parámetro, la tecla se muestra en pantalla.
+
+Referencia: http://www.nachocabanes.com/csharp/curso2015/csharp12b.php
+
+Funciones de Console
+--------------------
+En "Console" hay mucho más que ReadLine y WriteLine, aunque no todas las posibilidades están incluidas en las primeras versiones de la "plataforma punto net". Vamos a ver algunas de las funcionalidades adicionales que nos pueden resultar más útiles:
+
+->Clear: borra la pantalla.
+->ForegroundColor: cambia el color de primer plano (para indicar los colores, hay definidas constantes como "ConsoleColor.Black", que se detallan al final de este apartado).
+->BackgroundColor: cambia el color de fondo (para el texto que se escriba a partir de entonces; si se quiere borrar la pantalla con un cierto color, se deberá primero cambiar el color de fondo y después usar "Clear").
+->SetCursorPosition(x, y): cambia la posición del cursor ("x" se empieza a contar desde el margen izquierdo, e "y" desde la parte superior de la pantalla).
+->Readkey(interceptar): lee una tecla desde teclado. El parámetro "interceptar" es un "bool", y es opcional. Indica si se debe capturar la tecla sin permitir que se vea en pantalla ("true" para que no se vea, "false" para que se pueda ver). Si no se indica este parámetro, la tecla se muestra en pantalla.
+->KeyAvailable: indica si hay alguna tecla disponible para ser leída (es un "bool")
+->Title: el título que se va a mostrar en la consola (es un "string")
+
+Referencia: http://www.nachocabanes.com/csharp/curso2015/csharp12b.php
+
+2 - Usuarios
+3 - Base de Datos
+4 - Operaciones
+
+Acerca del sistema (Historia)

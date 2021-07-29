@@ -1,0 +1,174 @@
+/*public List<Usuario> ListadeUsuarios { get; set; }
+
+    public Inicio()
+    {
+        ListadeUsuarios = new List<Usuario>();
+        cargarUsuarios();
+    }
+
+    // Cargar usuarios
+    private void cargarUsuarios()
+    {
+        Usuario u1 = new Usuario("admin", "123456");
+        ListadeUsuarios.Add(u1);
+    }
+
+    private void enlistarUsuarios()
+    {
+        Console.Clear();
+        Console.WriteLine("--CARGANDO USUARIOS--");
+        Thread.Sleep(1000);
+        Console.Clear();
+        Console.WriteLine("\t-------------------------------------------------");
+        Console.WriteLine("\t               Usuarios del Sistema              ");
+        Console.WriteLine("\t-------------------------------------------------");
+        Console.WriteLine("");
+        Console.WriteLine("\t+----------------------------------------------------+");
+        Console.WriteLine("\t|  " + "User" + "  \t|  " + "Password" + "|");
+        Console.WriteLine("\t+----------------------------------------------------+");
+        Console.WriteLine("");
+
+        foreach (var usuario in ListadeUsuarios)
+        {
+            Console.WriteLine("\t| " + usuario.User + " \t\t| " + usuario.Password +  "|");
+            Console.WriteLine("\t+-------------------------------------------+");
+        }
+        Console.ReadLine();
+    }
+
+    //Remover usuarios
+    private void removerUsuarios()
+    {
+        Console.Clear();
+        Console.Write("Digite al usuario: ");
+        string user = Console.ReadLine();
+        Usuario usuario = ListadeUsuarios.Find(u => u.User == user);
+        
+        if (usuario == null)
+        {
+            Console.WriteLine("Usuario no valido o no encontrado");
+            Console.ReadLine();
+            menuUsuarios();
+        }
+        else
+        {
+            Console.Clear();
+            Console.WriteLine("Usuario: " + usuario.User);
+            Console.ReadLine();
+            Console.WriteLine("");
+            Console.Write("Estas seguro que quieres eliminar este usuario s | n: ");
+            string afirmar = Console.ReadLine();
+
+            if (afirmar.ToLower() == "s")
+            {
+                ListadeUsuarios.Remove(usuario); // Funcion Remove
+                Console.WriteLine("Usuario eliminado satisfactoriamente");
+                Console.ReadLine();
+            }
+        } 
+    }
+    //Crear usuarios
+    private void crearUsuarios()
+    {
+        Console.Clear();
+        Console.Write("Ingrese el nuevo usuario: ");
+        string user = Console.ReadLine();
+        Console.Write("Ingrese la contraseña: ");
+        string password = Console.ReadLine(); 
+        Console.Write("Confirmar password: ");
+        string confirmarPassword = Console.ReadLine();
+
+        while (confirmarPassword != password )
+        {
+            Console.WriteLine("Las passwords no son iguales, vuelva a crear otra");
+            Console.ReadLine();
+            Console.Clear();
+            Console.Write("Ingrese la contraseña: ");
+            password = Console.ReadLine(); 
+            Console.Write("Confirmar password: ");
+            confirmarPassword = Console.ReadLine();
+        } 
+         
+        Usuario usuario = new Usuario(user, confirmarPassword);
+        ListadeUsuarios.Add(usuario);
+
+        Console.WriteLine("Usuario creado satisfactoriamente");
+        Console.ReadLine();
+    }
+
+    // Mantenimiento de usuarios
+    private void menuUsuarios()
+    {
+        string opcion = "";
+
+        do
+        {
+            Console.Clear();
+            Console.WriteLine("--CARGANDO SISTEMA--");
+            Thread.Sleep(1000);
+            Console.Clear();
+            Console.WriteLine("------------------------------");
+            Console.WriteLine("      Usuarios del Sistema    ");
+            Console.WriteLine("------------------------------");
+            Console.WriteLine("");
+            Console.WriteLine("1 - Usuarios (ver)");
+            Console.WriteLine("2 - Crear Usuarios");
+            Console.WriteLine("3 - Borrar Usuarios");
+            Console.WriteLine("0 - Salir del Sistema");
+            Console.WriteLine("");
+            Console.Write("COMMAND => ");
+            opcion = Console.ReadLine();
+
+            switch (opcion)
+            {
+                case "1":
+                enlistarUsuarios();
+                break;
+                case "2":
+                crearUsuarios();
+                break;
+                case "3":
+                removerUsuarios();
+                break;
+                default:
+                break;
+            }
+        } while (opcion != "0");
+        Console.WriteLine("--VOLVER A INICIO--");
+        Thread.Sleep(1000);
+        interfaz(); //Volver a la interfaz de inicio
+    }
+
+    // Acceso a los usuarios
+    private void userAccess()
+    {
+        string user;
+        string password;
+    
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.Clear();
+        Console.WriteLine("--ACCEDIENDO A USUARIOS--");
+        Thread.Sleep(1000);
+        Console.Clear();
+        Console.Write("userid: ");
+        user = Console.ReadLine();
+        Console.Write("password: ");
+        password = Console.ReadLine();
+        Console.Write("");
+
+       foreach (var usuario in ListadeUsuarios)
+       {
+           if (user == usuario.User && password == usuario.Password)
+           {
+               menuUsuarios();
+               Thread.Sleep(1000);
+               interfaz();
+           }
+           else
+           {
+               Console.WriteLine("--VOLVER A INICIO, LOGIN INCORRECTO--");
+               Thread.Sleep(1000);
+               interfaz();
+           }
+       }
+    }*/

@@ -1,0 +1,62 @@
+POO - Programacion orientada a objetos
+--------------------------------------
+
+1 - Herencia 
+2 - Abstraccion
+3 - Encapsulamiento
+4 - Polimorfismo
+
+--------------------
+
+Herencia
+--------
+
+Herencia hereda las caracteristicas y argumentos de una clase padre (base)
+
+Persona ----> Clase Padre / Caracteristicas o argumentos
+   |	- Identidad
+   |	- Nombre Completo
+   |	- Codigo
+   | 	- Telefono
+   |	- Fecha Nacimiento 
+   |
+   |
+   |========> Empleados 
+   |			- Usuario
+   |			- Cargo
+   |========> Clientes 
+			- Direccion
+			- Tipo Sangre
+			- Ocupacion
+
+public class persona {
+
+   public string NombreCompleto { get; set; }
+
+}
+		extend => extension
+public class Empleado:persona { 
+  
+   public string Usuario { get; set; }
+
+   public Empleado(string nombrecompleto, string usuario)
+   {
+	NombreCompleto = nombrecompleto;
+	Usuario = usuario;
+   }
+}
+
+Abstraccion
+-----------
+
+- Expone los datos de una clase para utilizarlos
+
+Encapsulamiento
+---------------
+
+- Encapsula los datos de una clase
+
+Polimorfismo
+------------
+
+En programación orientada a objetos, el polimorfismo se refiere a la propiedad por la que es posible enviar mensajes sintácticamente iguales a objetos de tipos distintos. El único requisito que deben cumplir los objetos que se utilizan de manera polimórfica es saber responder al mensaje que se les envía

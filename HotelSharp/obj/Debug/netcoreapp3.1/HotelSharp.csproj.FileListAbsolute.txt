@@ -1,0 +1,13 @@
+C:\Users\OPT790\Desktop\Kenneth\Programacion\C#\HotelSystem\HotelSharp\bin\Debug\netcoreapp3.1\HotelSharp.exe
+C:\Users\OPT790\Desktop\Kenneth\Programacion\C#\HotelSystem\HotelSharp\bin\Debug\netcoreapp3.1\HotelSharp.deps.json
+C:\Users\OPT790\Desktop\Kenneth\Programacion\C#\HotelSystem\HotelSharp\bin\Debug\netcoreapp3.1\HotelSharp.runtimeconfig.json
+C:\Users\OPT790\Desktop\Kenneth\Programacion\C#\HotelSystem\HotelSharp\bin\Debug\netcoreapp3.1\HotelSharp.runtimeconfig.dev.json
+C:\Users\OPT790\Desktop\Kenneth\Programacion\C#\HotelSystem\HotelSharp\bin\Debug\netcoreapp3.1\HotelSharp.dll
+C:\Users\OPT790\Desktop\Kenneth\Programacion\C#\HotelSystem\HotelSharp\bin\Debug\netcoreapp3.1\HotelSharp.pdb
+C:\Users\OPT790\Desktop\Kenneth\Programacion\C#\HotelSystem\HotelSharp\obj\Debug\netcoreapp3.1\HotelSharp.csprojAssemblyReference.cache
+C:\Users\OPT790\Desktop\Kenneth\Programacion\C#\HotelSystem\HotelSharp\obj\Debug\netcoreapp3.1\HotelSharp.AssemblyInfoInputs.cache
+C:\Users\OPT790\Desktop\Kenneth\Programacion\C#\HotelSystem\HotelSharp\obj\Debug\netcoreapp3.1\HotelSharp.AssemblyInfo.cs
+C:\Users\OPT790\Desktop\Kenneth\Programacion\C#\HotelSystem\HotelSharp\obj\Debug\netcoreapp3.1\HotelSharp.csproj.CoreCompileInputs.cache
+C:\Users\OPT790\Desktop\Kenneth\Programacion\C#\HotelSystem\HotelSharp\obj\Debug\netcoreapp3.1\HotelSharp.dll
+C:\Users\OPT790\Desktop\Kenneth\Programacion\C#\HotelSystem\HotelSharp\obj\Debug\netcoreapp3.1\HotelSharp.pdb
+C:\Users\OPT790\Desktop\Kenneth\Programacion\C#\HotelSystem\HotelSharp\obj\Debug\netcoreapp3.1\HotelSharp.genruntimeconfig.cache
