@@ -15,6 +15,12 @@ Dedicatory
 C# .Net SDK 3.1
 ```
 
+## Paradigm
+
+```
+Oriented Objects Programming
+```
+
 ## Goal of Project
 This a little practice, so funny that i have done in this month, the purpuse of this project is to learn in C#
 a language so magnificent, the expectation was to create a code that simulate a process in a Hotel, Red Guara
