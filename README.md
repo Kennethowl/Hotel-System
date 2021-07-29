@@ -41,7 +41,7 @@ _"The programmation is an art so stellar and so stunning"
 
 ## Pre - Visualization
 
-![image]()
+![image](https://github.com/Kennethowl/Hotel-System/blob/main/Promocion.gif)
 
 ## Version
 
