@@ -6,7 +6,7 @@ Dedicatory
 ----------
 
 * To God, My Family, my force and my life.
-* To My Loved, who is the best and my Queen.
+* To My Loved, who is the best, my Queen and my All in the life.
 * To JC, other level for as programmer
 
 ## Technologies
