@@ -46,6 +46,8 @@ Kenneth Flores - Student
 
 MIT - You can use this project for all confidently
 
+[LICENSE.md]
+
 _"The programmation is an art so stellar and so stunning"_
 
 ## Pre - Visualization
