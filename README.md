@@ -46,7 +46,7 @@ Kenneth Flores - Student
 
 MIT - You can use this project for all confidently
 
-[LICENSE.md]
+[LICENSE](Licencia MIT)
 
 _"The programmation is an art so stellar and so stunning"_
 
