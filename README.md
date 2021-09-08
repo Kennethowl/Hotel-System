@@ -37,10 +37,10 @@ is for the Guacamayas of my country
 
 Also we create a maintenance as if was a CRUD
 
-**C** reate
-**R** ead
-**U** pdate
-**D** elete
+* **C** reate
+* **R** ead
+* **U** pdate
+* **D** elete
 
 With this we can explain a little about the project.
 
