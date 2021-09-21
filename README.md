@@ -52,7 +52,7 @@ Kenneth Flores - Student
 
 MIT - You can use this project for all confidently
 
-[https://github.com/Kennethowl/Hotel-System/blob/main/LICENSE]
+[License](https://github.com/Kennethowl/Hotel-System/blob/main/LICENSE)
 
 _"The programmation is an art so stellar and so stunning"_
 
